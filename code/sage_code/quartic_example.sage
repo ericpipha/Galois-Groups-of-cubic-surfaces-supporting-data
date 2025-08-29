@@ -1,6 +1,7 @@
 os.environ["SAGE_NUM_THREADS"] = '10'
 from lefschetz_family.fibration import Fibration
 from lefschetz_family.fibration import Hypersurface
+from lefschetz_family.numperiods.cohomology import Cohomology
 from lefschetz_family.numperiods.integerRelations import IntegerRelations
 from lefschetz_family.util import Util
 from lefschetz_family.numperiods.family import Family
@@ -12,22 +13,24 @@ logging.getLogger('lefschetz_family.hypersurface').setLevel(logging.INFO)
 logging.getLogger('lefschetz_family.fibration').setLevel(logging.INFO)
 
 load("functions_monodromy_quartic.sage")
+crystallographic_groups = load("crystallographic_groups")
 
 R.<x,y,z,w> = QQ[]
 S.<t> = R[]
 monomials = R.monomials_of_degree(4)
 
-invariant_pols = {}
-i=1
-for key, G in crystallographic_groups.items():
-    print(i,"/",len(crystallographic_groups),":",key, " "*10, end="\r")
-    i+=1
-    invariant_pols[key] = invariant_polynomials(G.gens(), monomials)
-save(invariant_pols, "data_crystallographic/invariant_pols")
+try:
+    invariant_pols = load("invariant_pols")
+except:
+    invariant_pols = {}
+    i=1
+    for key, G in crystallographic_groups.items():
+        print(i,"/",len(crystallographic_groups),":",key, " "*10, end="\r")
+        i+=1
+        invariant_pols[key] = invariant_polynomials(G.gens(), monomials)
+    save(invariant_pols, "invariant_pols")
 
-crystallographic_groups = load("crystallographic_groups")
-invariant_pols = load("invariant_pols")
-
+print("Processing crystallographic systems to identify generically smooth ones")
 generically_singular_families = []
 k=1
 for key, span in invariant_pols.items():
@@ -57,6 +60,9 @@ for key, ip in invariant_pols.items():
 possible_keys = [key for key in possible_keys if key in [l[0] for l in seen]]
 
 key = "32.9"
+
+print("Computing monodromy of crystallogrpahic group %s"%(key))
+
 symmetrygroup = crystallographic_groups[key]
 span = invariant_pols[key]
 
@@ -72,9 +78,11 @@ Pt = P0 + t*Pinf
 couldnotopen = False
 try:
     fibre = load("fibre_"+key)
+    print("Loaded periods of fibre")
 except:
     couldnotopen = True
 if couldnotopen or fibre.P != Pt(basepoint):
+    print("Computing periods of fibre")
     fibration = [vector(ZZ, [10, -7, 6, 1]), vector(ZZ, [9, -6, -10, 6]), vector(ZZ, [-10, -2, -7, -7])]
     fibre = Hypersurface(Pt(basepoint), fibration=fibration, nbits=1000)
 _ =  fibre.period_matrix
@@ -125,6 +133,13 @@ iniconds = [get_ini_conds(w[:21].change_ring(fam.upolring), fam, basepoint) for 
 picard_fuchs_equations = [fam.picard_fuchs_equation(w[:21]) for w in candidates]
 cyclic_forms = [candidates[i][:21].change_ring(fam.upolring) for i in pick_indices(picard_fuchs_equations, iniconds)]
 
+# Computing monodromy for 32.9 is very efficient, it only takes a minute
+print("Computing Monodromy")
 fib = Fibration(Pt, family=fam, fibre=fibre, basepoint=basepoint, cyclic_forms=cyclic_forms, nbits=400)
-
-%time fib.monodromy_matrices
+monodromy = fib.monodromy_matrices
+print("Monodromy computed")
+for M in monodromy:
+    if M==1:
+        continue
+    print(str(M))
+    print()

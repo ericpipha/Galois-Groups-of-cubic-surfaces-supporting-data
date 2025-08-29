@@ -1,7 +1,10 @@
 os.environ["SAGE_NUM_THREADS"] = '10'
 
 from lefschetz_family.fibration import Fibration
-load(./functions_monodromy_cubic.sage)
+from lefschetz_family.numperiods.cohomology import Cohomology
+from lefschetz_family import Hypersurface
+import time
+load("functions_monodromy_cubic.sage")
 
 d=3
 R.<x,y,z,w> = QQ[]
@@ -52,12 +55,14 @@ for key, l in invariant_pols.items():
 
 
 # we compute the periods of the Clebsch cubic surface
+print("Computing periods of Clebsch surface")
 Pbase = invariant_pols["S5"][0]
 fibration = [vector(ZZ, [4, -3, 8, 1]), vector(ZZ, [-1, 3, 4, -10]), vector(ZZ, [8, 4, -1, -8])]
 fibre = Hypersurface(Pbase, nbits=1000, fibration=fibration)
 _ = fibre.period_matrix
 
 # we compute the monodromy matrices along a random line in L_{S_4}
+print("Computing monodromy along line in S4-invariant cubics")
 random_vector = vector([-41, -2, -95, 11, -58, -9, -94, -81, -93, 38, -86, -13, 41, 36, 62, -13, 82, -80, 31, 25, 55, -74, -51, -9, 27])
 span = invariant_pols["S4"]
 basepoint = 0
@@ -71,14 +76,18 @@ lines = find_curves(fibre, 1)[1]
 assert len(lines)==27, "did not find 27 lines"
 
 # and the permutation of the lines induced by monodromy
-[Permutation([lines.index(M*L) +1 for L in lines]) for M in fib.monodromy_matrices]
+print("Monodromy on lines of S4-symmetric cubic surfaces:")
+print([Permutation([lines.index(M*L) +1 for L in lines]) for M in fib.monodromy_matrices])
 
 # we recover the Klein 4-group
-PermutationGroup([Permutation([lines.index(M*L) +1 for L in lines]) for M in fib.monodromy_matrices]).group_id()
+print("Group id of Galois group of lines of S4-symmetric cubic surfaces:")
+print(PermutationGroup([Permutation([lines.index(M*L) +1 for L in lines]) for M in fib.monodromy_matrices]).group_id())
 
 
 
 # Now we compute all the Galois groups of symmetric families
+
+print("\n\n Computing monodromy of all G-invariant families for G a subgroup of S5")
 
 # this cell sorts the lines
 action_matrices = [matrix_action_on_cohomology(matrix(g), fibre) for g in symmetric_subgroups["S4"].gens()]
@@ -143,7 +152,7 @@ for i, span in enumerate(invariant_pols_distinct):
             action_matrices = [matrix_action_on_cohomology(matrix(g), fibre) for g in symmetric_subgroups[key].gens()]
             group_action[key] = get_permutation(lines, action_matrices)
             
-        fib = Fibration(Pt, fibre=fibre, basepoint=basepoint, nbits=400, cyclic_forms=w)
+        fib = Fibration(Pt, fibre=fibre, basepoint=basepoint, nbits=400)
         begin = time.time()
         monodromy_matrices = fib.monodromy_matrices
         end = time.time()
