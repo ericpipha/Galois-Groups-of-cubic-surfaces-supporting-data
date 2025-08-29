@@ -309,7 +309,7 @@ There are 240 conics:
 # DISCRIMINANT #
 ################
 
-The discriminant has 5 components of degree 1, 3 components of degree 2, 1 component of degree 5, and 1 component of degree 10:
+The discriminant has 6 components of degree 1, 4 components of degree 2, and 2 components of degree 3:
 16*Z[0] - 5*Z[1] + Z[4]
 2*Z[1] - 2*Z[4] + Z[5]
 2*Z[1] - 2*Z[4] - Z[5]

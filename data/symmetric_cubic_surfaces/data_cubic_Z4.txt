@@ -30,7 +30,7 @@ Action of the crystallographic group on the 27 lines:
 # DISCRIMINANT #
 ################
 
-The discriminant has 27 components of degree 1:
+The discriminant has 3 components of degree 1, 1 component of degree 2, and 1 component of degree 3:
 Z4
 3*Z[0] - Z[1] + Z[2] + Z[3] - Z[4]
 3*Z[0] + 3*Z[1] - Z[2] - Z[3] - Z[4]

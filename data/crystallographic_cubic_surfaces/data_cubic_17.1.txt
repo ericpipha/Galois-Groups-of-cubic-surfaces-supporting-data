@@ -34,7 +34,7 @@ Action of the crystallographic group on the 27 lines:
 # DISCRIMINANT #
 ################
 
-The discriminant has 1 component of degree 8:
+The discriminant has 1 component of degree 4:
 Z[0]^2*Z[3]^2 - 6*Z[0]*Z[1]*Z[2]*Z[3] + 4*Z[0]*Z[2]^3 + 4*Z[1]^3*Z[3] - 3*Z[1]^2*Z[2]^2
 
 ################

@@ -69,7 +69,7 @@ There are no conics.
 ################
 
 We did not manage to compute the discriminant.
-The restriction of the discriminant to the line we chose had 5 components of degree 1, 3 components of degree 2, 1 component of degree 5, and 1 component of degree 10.
+The restriction of the discriminant to the line we chose had 3 components of degree 6, and 1 component of degree 18.
 The equation of the line we chose is:
 (-9*x^4 - 11*x^2*y^2 - 9*y^4 - 6*x^3*z - x*y^2*z + 13*x^2*z^2 - 2*y^2*z^2 + 3*x*z^3 + 5*z^4 - x^2*y*w - 6*y^3*w + 4*x*y*z*w - 9*y*z^2*w - 2*x^2*w^2 + 13*y^2*w^2 - 9*x*z*w^2 + 7*z^2*w^2 + 3*y*w^3 + 5*w^4)*t - 28*x^4 - 41*x^2*y^2 - 28*y^4 - 10*x^3*z + 68*x*y^2*z + 70*x^2*z^2 + 64*y^2*z^2 + 20*x*z^3 - 89*z^4 + 68*x^2*y*w - 10*y^3*w + 31*x*y*z*w + 4*y*z^2*w + 64*x^2*w^2 + 70*y^2*w^2 + 4*x*z*w^2 + 95*z^2*w^2 + 20*y*w^3 - 89*w^4
 

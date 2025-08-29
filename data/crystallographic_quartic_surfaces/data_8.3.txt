@@ -236,7 +236,7 @@ There are 164 conics:
 ################
 
 We did not manage to compute the discriminant.
-The restriction of the discriminant to the line we chose had 5 components of degree 1, 3 components of degree 2, 1 component of degree 5, and 1 component of degree 10.
+The restriction of the discriminant to the line we chose had 1 component of degree 1, 2 components of degree 6, and 1 component of degree 21.
 The equation of the line we chose is:
 (-11*x^4 - 27*x^3*y + 15*x^2*y^2 + 31*x*y^3 + 12*y^4 + 9*x^3*z - 10*x^2*y*z - 31*x*y^2*z - 16*y^3*z + 4*x^2*z^2 + 25*x*y*z^2 + 8*y^2*z^2 - 7*x*z^3 - 14*y*z^3 + 5*z^4 - 9*x^3*w + 10*x^2*y*w + 31*x*y^2*w + 16*y^3*w - x^2*z*w - 6*x*y*z*w - 16*y^2*z*w + 2*x*z^2*w - 13*y*z^2*w + 3*z^3*w + 4*x^2*w^2 + 25*x*y*w^2 + 8*y^2*w^2 - 2*x*z*w^2 + 13*y*z*w^2 - 9*z^2*w^2 + 7*x*w^3 + 14*y*w^3 + 3*z*w^3 + 5*w^4)*t - 41*x^4 - 84*x^3*y - 111*x^2*y^2 + 167*x*y^3 - 429*y^4 + 28*x^3*z + 74*x^2*y*z - 167*x*y^2*z + 572*y^3*z + 31*x^2*z^2 + 157*x*y*z^2 - 664*y^2*z^2 - 95*x*z^3 + 396*y*z^3 - 89*z^4 - 28*x^3*w - 74*x^2*y*w + 167*x*y^2*w - 572*y^3*w + 68*x^2*z*w - 10*x*y*z*w + 194*y^2*z*w - 64*x*z^2*w - 70*y*z^2*w + 20*z^3*w + 31*x^2*w^2 + 157*x*y*w^2 - 664*y^2*w^2 + 64*x*z*w^2 + 70*y*z*w^2 + 4*z^2*w^2 + 95*x*w^3 - 396*y*w^3 + 20*z*w^3 - 89*w^4
 
