@@ -1,0 +1,42 @@
+
+#######################################################
+# DATA FOR CRYSTALLOGRAPHIC CUBIC SURFACE FAMILY 27.3 #
+#######################################################
+
+
+##################
+# GROUP & FAMILY #
+##################
+
+Generators of crystallographic group:
+[[0, 0, 1, -1], [0, 1, 0, -1], [1, 0, 0, -1], [0, 0, 0, -1]]
+[[0, -1, 1, 0], [0, -1, 0, 1], [0, -1, 0, 0], [1, -1, 0, 0]]
+
+Invariant polynomials:
+2*x^3 + 2*y^3 - 3*x^2*z - 4*x*y*z - 3*x*z^2 + 2*z^3 - 3*x^2*w + 8*x*y*w - 3*y^2*w + 8*x*z*w - 4*y*z*w - 3*x*w^2 - 3*y*w^2 + 2*w^3
+x^2*y + x*y^2 - x^2*z - 4*x*y*z + y^2*z - x*z^2 + y*z^2 - x^2*w + 4*x*y*w - y^2*w + 4*x*z*w - 4*y*z*w + z^2*w - x*w^2 - y*w^2 + z*w^2
+
+Equivalent crystallographic groups:
+27.3
+
+################
+# GROUP ACTION #
+################
+
+
+Action of the crystallographic group on the 27 lines:
+[1, 27, 7, 21, 20, 17, 3, 16, 9, 15, 25, 13, 12, 14, 10, 8, 6, 18, 22, 5, 4, 19, 23, 24, 11, 26, 2]
+[5, 27, 16, 14, 2, 4, 18, 7, 9, 12, 22, 26, 15, 21, 10, 8, 6, 3, 25, 1, 17, 19, 23, 11, 24, 13, 20]
+
+################
+# DISCRIMINANT #
+################
+
+See the discriminant of TODO
+
+################
+# GALOIS GROUP #
+################
+
+
+Galois group is trivial.
