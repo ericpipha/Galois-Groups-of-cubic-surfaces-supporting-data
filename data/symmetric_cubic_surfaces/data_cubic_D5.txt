@@ -1,0 +1,40 @@
+
+##############################################
+# DATA FOR SYMMETRIC CUBIC SURFACE FAMILY D5 #
+##############################################
+
+
+##################
+# GROUP & FAMILY #
+##################
+
+Generators of crystallographic group:
+[[0, 0, 0, 1], [1, 0, 0, 0], [0, 1, 0, 0], [-1, -1, -1, -1]]
+[[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0]]
+
+Invariant polynomials:
+y^2*z + y*z^2 + x^2*w + 2*x*z*w + 2*y*z*w + z^2*w + x*w^2 + z*w^2
+x^2*y + x*y^2 + x^2*z + 2*x*y*z + x*z^2 + 2*x*y*w + y^2*w + y*w^2
+
+################
+# GROUP ACTION #
+################
+
+
+Action of the crystallographic group on the 27 lines:
+[1, 5, 4, 6, 3, 2, 7, 11, 10, 12, 9, 8, 16, 25, 13, 14, 23, 24, 26, 22, 20, 19, 27, 17, 15, 21, 18]
+[1, 5, 6, 4, 2, 3, 7, 11, 12, 10, 8, 9, 16, 15, 14, 13, 24, 23, 21, 22, 19, 20, 18, 17, 25, 26, 27]
+
+################
+# DISCRIMINANT #
+################
+
+The discriminant has 27 components of degree 1:
+Z[0]^2 - 3*Z[0]*Z[1] + Z[1]^2
+
+################
+# GALOIS GROUP #
+################
+
+
+Galois group is trivial.
