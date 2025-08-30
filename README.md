@@ -9,7 +9,7 @@ Code that can be used to reproduce the results of the paper is included in the `
 
 ### Monodromy computations
 
-This part of the code is implemented in `SageMath` and relies of the [`lefschetz-family` package](https://github.com/ericpipha/lefschetz-family), in which general methods not specific to cubic and quartic surfaces have been implemented.in the `Fibration` class.
+This part of the code is implemented in `SageMath` and relies on the [`lefschetz-family` package](https://github.com/ericpipha/lefschetz-family), in which general methods not specific to cubic and quartic surfaces have been implemented.in the `Fibration` class.
 
 There is an example of a symmetric cubic computation, code for computing the monodromy of all $G$-invariant cubic surfaces for $G$ a subgroup of $S_4$.
 
@@ -20,7 +20,7 @@ To recompute the period matrix (which takes around one hour), delete the file `f
 
 This part of the code is implemented in `julia` and relies on OSCAR *TODO: add link*.
 
-*TODO explain what is invluded and how to use it*
+*TODO explain what is included and how to use it*
 
 ## Data
 
