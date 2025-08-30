@@ -37,6 +37,7 @@ def find_curves(surface, dmax, NS=None, g=0):
     return N
     
 def get_ini_conds(w, fam, basepoint):
+    GM, denom = fam.gaussmanin()
     L = fam.picard_fuchs_equation(w)
     Dt = L.parent().gen(0)
         
