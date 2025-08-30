@@ -39,3 +39,5 @@ Instead of including the symmetric quartic surfaces, we refer to [Table 7 of the
 ### Crystallographic quartic surfaces
 
 *TODO: describe data*
+
+The cases `2.1` and `3.1` will be added shortly, the computation of the full monodromy representation on $H_2(X)$ being still in progress.
