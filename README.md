@@ -1,8 +1,11 @@
 # Galois-Groups-of-cubic-surfaces-supporting-data
-This repository contains the supporting data and code for the paper [TO ADD].
+
+This repository contains the supporting data and code for the paper *TODO: add link*.
 
 
 ## Code
+
+Code that can be used to reproduce the results of the paper is included in the `code` repository, and we give here a brief overview of how it may be used.
 
 ### Monodromy computations
 
