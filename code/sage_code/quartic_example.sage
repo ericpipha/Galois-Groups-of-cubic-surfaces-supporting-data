@@ -1,3 +1,5 @@
+KEYTORUN = sys.args[1] if len(sys.args)>1 else "32.9"
+
 os.environ["SAGE_NUM_THREADS"] = '10'
 from lefschetz_family.fibration import Fibration
 from lefschetz_family.fibration import Hypersurface
@@ -59,7 +61,7 @@ for key, ip in invariant_pols.items():
         pols += [ip]
 possible_keys = [key for key in possible_keys if key in [l[0] for l in seen]]
 
-key = "32.9"
+key = KEYTORUN
 
 print("Computing monodromy of crystallogrpahic group %s"%(key))
 
