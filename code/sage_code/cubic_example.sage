@@ -19,7 +19,7 @@ symmetric_subgroups = {
     'Z4':[[3,4,2,1]],
     'Z3':[[2,3,1,4]],
     'Z2':[[2,1,3,4]],
-    'DT':[[2,1,4,3]],
+    'dZ2':[[2,1,4,3]],
     'Z1':[[1,2,3,4]],
 }
 for key, l in symmetric_subgroups.items():
