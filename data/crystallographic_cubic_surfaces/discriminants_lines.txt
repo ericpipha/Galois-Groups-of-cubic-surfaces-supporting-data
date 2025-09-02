@@ -1,0 +1,196 @@
+10.1_line
+computing disc took 104247.265930021 seconds 
+its components have degree ZZRingElem[48, 12]
+------------------------------------------------------ 
+12.1_line
+computing disc took 8222.266872999 seconds 
+its components have degree ZZRingElem[24, 2, 2, 2, 1, 1]
+------------------------------------------------------ 
+12.3_line
+computing disc took 193.817884854 seconds 
+its components have degree ZZRingElem[10, 5, 2, 2, 2, 1, 1, 1, 1, 1]
+------------------------------------------------------ 
+13.1_line
+computing disc took 9.261774191 seconds 
+its components have degree ZZRingElem[6, 4, 4, 2, 2, 2, 1, 1]
+------------------------------------------------------ 
+13.3_line
+computing disc took 8.744520031 seconds 
+its components have degree ZZRingElem[3, 3, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1]
+------------------------------------------------------ 
+14.1_line
+computing disc took 86.606189682 seconds 
+its components have degree ZZRingElem[2, 8, 5, 2, 2, 1, 1, 1]
+------------------------------------------------------ 
+14.3_line
+computing disc took 1532.877641313 seconds 
+its components have degree ZZRingElem[12, 5, 5, 2, 1, 1]
+------------------------------------------------------ 
+14.6_line
+computing disc took 30.974492678 seconds 
+its components have degree ZZRingElem[1, 8, 5, 2, 2, 1, 1, 1]
+------------------------------------------------------ 
+16.1_line
+computing disc took 393.134355878 seconds 
+its components have degree ZZRingElem[18, 6, 6, 6]
+------------------------------------------------------ 
+18.1_line
+computing disc took 8577.645479876 seconds 
+its components have degree ZZRingElem[20, 4, 4, 2, 2, 2, 2]
+------------------------------------------------------ 
+18.2_line
+computing disc took 207.188135452 seconds 
+its components have degree ZZRingElem[10, 5, 4, 2, 2, 1, 1, 1]
+------------------------------------------------------ 
+18.3_line
+computing disc took 10.659508997 seconds 
+its components have degree ZZRingElem[3, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1]
+------------------------------------------------------ 
+18.4_line
+computing disc took 31.943155706 seconds 
+its components have degree ZZRingElem[6, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1]
+------------------------------------------------------ 
+19.1_line
+computing disc took 8.231111393 seconds 
+its components have degree ZZRingElem[4, 4, 2, 2, 1, 1, 1]
+------------------------------------------------------ 
+19.2_line
+computing disc took 10.53692559 seconds 
+its components have degree ZZRingElem[8, 2, 2, 2, 2]
+------------------------------------------------------ 
+19.4_line
+computing disc took 8.212702114 seconds 
+its components have degree ZZRingElem[2, 2, 2, 2, 1, 1, 1, 1, 1, 1]
+------------------------------------------------------ 
+2.1_line
+computing disc took 3304.215222399 seconds 
+its components have degree ZZRingElem[40, 27, 1]
+------------------------------------------------------ 
+24.1_line
+computing disc took 150.621151633 seconds 
+its components have degree ZZRingElem[5, 5, 2, 1, 1, 1, 1]
+------------------------------------------------------ 
+25.1_line
+computing disc took 8.500159643 seconds 
+its components have degree ZZRingElem[2, 2, 2, 1, 1, 1, 1, 1]
+------------------------------------------------------ 
+26.1_line
+computing disc took 18260.369408364 seconds 
+its components have degree ZZRingElem[4, 24]
+------------------------------------------------------ 
+26.2_line
+computing disc took 986.314185683 seconds 
+its components have degree ZZRingElem[2, 6, 6, 6]
+------------------------------------------------------ 
+27.1_line
+computing disc took 5221.287920242 seconds 
+its components have degree ZZRingElem[4, 12]
+------------------------------------------------------ 
+27.3_line
+computing disc took 250.671961806 seconds 
+its components have degree ZZRingElem[2, 6, 6]
+------------------------------------------------------ 
+3.1_line2
+computing disc took 2280.42487858 seconds 
+its components have degree ZZRingElem[48, 6, 6]
+------------------------------------------------------ 
+3.1_line3
+computing disc took 2149.853076658 seconds 
+its components have degree ZZRingElem[48, 6, 6]
+------------------------------------------------------ 
+3.1_line
+computing disc took 1665.57283296 seconds 
+its components have degree ZZRingElem[48, 6, 6]
+------------------------------------------------------ 
+31.1_line
+computing disc took 24.870619846 seconds 
+its components have degree ZZRingElem[1, 2, 2, 2, 1, 1]
+------------------------------------------------------ 
+31.2_line
+computing disc took 27.254821424 seconds 
+its components have degree ZZRingElem[1, 2, 2, 2, 1, 1]
+------------------------------------------------------ 
+31.3_line
+computing disc took 8.677396254 seconds 
+its components have degree ZZRingElem[1, 1, 1, 1, 1]
+------------------------------------------------------ 
+32.10_line
+computing disc took 8.487985439 seconds 
+its components have degree ZZRingElem[3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+------------------------------------------------------ 
+32.11_line
+computing disc took 24.502330763 seconds 
+its components have degree ZZRingElem[2, 4, 2, 1, 1]
+------------------------------------------------------ 
+32.16_line
+computing disc took 8.378033977 seconds 
+its components have degree ZZRingElem[3, 1, 1, 1, 1, 1, 1, 1]
+------------------------------------------------------ 
+32.18_line
+computing disc took 7.899666729 seconds 
+its components have degree ZZRingElem[1, 1, 1, 1, 1]
+------------------------------------------------------ 
+32.1_line
+computing disc took 21529.972616194 seconds 
+its components have degree ZZRingElem[18, 6, 6, 6]
+------------------------------------------------------ 
+32.2_line
+computing disc took 17.948618936 seconds 
+its components have degree ZZRingElem[2, 2, 2, 2, 2, 2, 2]
+------------------------------------------------------ 
+32.3_line
+computing disc took 883.502317191 seconds 
+its components have degree ZZRingElem[2, 6, 6, 6]
+------------------------------------------------------ 
+32.4_line
+computing disc took 63.928439579 seconds 
+its components have degree ZZRingElem[6, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+------------------------------------------------------ 
+32.5_line
+computing disc took 1401.029036477 seconds 
+its components have degree ZZRingElem[6, 6, 4]
+------------------------------------------------------ 
+32.6_line
+computing disc took 10.303106332 seconds 
+its components have degree ZZRingElem[2, 2, 2, 2, 2, 1, 1, 1]
+------------------------------------------------------ 
+32.7_line
+computing disc took 8.951797745 seconds 
+its components have degree ZZRingElem[2, 1, 1, 1, 1, 1, 1, 1]
+------------------------------------------------------ 
+32.8_line
+computing disc took 9.03678826 seconds 
+its components have degree ZZRingElem[2, 2, 2, 2, 2]
+------------------------------------------------------ 
+32.9_line
+computing disc took 8.190019146 seconds 
+its components have degree ZZRingElem[3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+------------------------------------------------------ 
+4.1_line
+computing disc took 30.168846967 seconds 
+its components have degree ZZRingElem[14, 10, 10, 6, 2, 1, 1]
+------------------------------------------------------ 
+5.1_line
+computing disc took 4935.180122077 seconds 
+its components have degree ZZRingElem[20, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1]
+------------------------------------------------------ 
+6.1_line
+computing disc took 8.593873931 seconds 
+its components have degree ZZRingElem[4, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1]
+------------------------------------------------------ 
+7.1_line
+computing disc took 25.723734241 seconds 
+its components have degree ZZRingElem[20, 6, 2, 2]
+------------------------------------------------------ 
+7.4_line
+computing disc took 10.319647283 seconds 
+its components have degree ZZRingElem[10, 10, 6, 1, 1, 1]
+------------------------------------------------------ 
+8.1_line
+computing disc took 17351.916991273 seconds 
+its components have degree ZZRingElem[34, 6]
+------------------------------------------------------ 
+8.3_line
+computing disc took 2943.423488126 seconds 
+its components have degree ZZRingElem[21, 6, 6, 1]
+------------------------------------------------------ 
