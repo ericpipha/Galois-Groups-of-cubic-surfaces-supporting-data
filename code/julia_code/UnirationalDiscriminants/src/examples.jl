@@ -3,12 +3,12 @@ using Oscar
 
 # We start by illustrating some functionalities of the code.
 
-# Here is a linear system I made up. 
+# Here is how to define a linear system. 
 R, vrs = polynomial_ring(QQ,["x";"y";"z";"w"])
 x,y,z,w = vrs
 h = [x^3 + y^3 + z^3 + w^3; x^2*y + z^2*w; x*y*z]
 
-# We compute the discriminant in 3 ways.
+# We compute its discriminant in 3 ways.
 
 # Use naive elimination from the critical equations, with saturation:
 @time naive_elimination(h)
