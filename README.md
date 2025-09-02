@@ -52,7 +52,13 @@ Some functionalities of the package are illustrated in the file `examples.jl`.
 
 ### Symmetric cubic surfaces
 
-*TODO: describe data*
+This folder contains computational results for the families of symmetric cubic surfaces appearing in Table 1. There is one txt file for each group in that table, and such a file contains
+
+- a list of generators of the group as a subgroup of $\mathrm{GL}_4(\mathbb{Z})$,
+- the basis we chose for the linear system of invariants,
+- the permutation of the 27 lines induced by each of the generators of the group, 
+- the irreducible components of the discriminant hypersurface,
+- generators of the Galois group as a subgroup of $S_{27}$. 
 
 ### Crystallographic cubic surfaces
 
