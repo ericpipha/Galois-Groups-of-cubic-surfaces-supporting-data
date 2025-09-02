@@ -1,0 +1,23 @@
+As explained in Section 5, the discriminant is homogeneous with respect to a multigrading 
+induced by a torus action. In several cases, it is crucial to exploit this homogeneity 
+for computing the component prY0 of the discriminant. Below we list the gradings and 
+corresponding multidegrees of prY0 for the groups in Table 1 for which prY0 is a hypersurface.  
+
+Z4: 
+grading: [[3], [3], [3], [3], [3]]
+degree prY0: [9]
+K4: 
+grading: [[3], [3], [3], [3], [3]]
+degree prY0: [9]
+DT: 
+grading: [[0, 3], [0, 3], [1, 2], [1, 2], [1, 2], [2, 1], [2, 1], [2, 1], [3, 0], [3, 0]]
+degree prY0: [12, 12]
+Z2: 
+grading: [[0, 0, 3], [0, 1, 2], [1, 0, 2], [0, 2, 1], [1, 1, 1], [2, 0, 1], [2, 0, 1], [0, 3, 0], [1, 2, 0], [2, 1, 0], [2, 1, 0], [3, 0, 0], [3, 0, 0]]
+degree prY0: [18, 6, 6]
+Z3: 
+grading: [[0, 3], [1, 2], [2, 1], [2, 1], [3, 0], [3, 0], [3, 0], [3, 0]]
+degree prY0: [18, 6]
+Z1: 
+grading: [[3], [3], [3], [3], [3], [3], [3], [3], [3], [3], [3], [3], [3], [3], [3], [3], [3], [3], [3], [3]]
+degree prY0: [24, 24, 24, 24]
