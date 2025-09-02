@@ -47,7 +47,6 @@ using UnirationalDiscriminants
 
 Some functionalities of the package are illustrated in the file examples.jl. 
 
-*TODO explain what is included and how to use it*
 
 ## Data
 
