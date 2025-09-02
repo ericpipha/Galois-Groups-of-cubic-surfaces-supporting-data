@@ -34,7 +34,7 @@ Action of the crystallographic group on the 27 lines:
 # DISCRIMINANT #
 ################
 
-See the discriminant of TODO
+The discriminant can be recover from symmetric cubic surface family D4 by a linear change of coordinates.
 
 ################
 # GALOIS GROUP #
