@@ -24,28 +24,28 @@ The remaining cases require lengthier computation.
 This part of the code is implemented in `julia` and relies on [OSCAR](https://www.oscar-system.org). The package UnirationalDiscriminants.jl implements methods for computing the discriminant of a linear system of projective hypersurfaces. 
 
 To use the package, make sure you are in the folder UnirationalDiscriminants.
-You can check this by accessing the shell in a julia terminal by clicking ";" and then using "pwd":
+You can check this by accessing the shell in a julia terminal by clicking ";" and then using `pwd`:
 
-```
-shell> pwd
+```shell
+pwd
 ```
 
-If this does not show the path to UnirationalDiscriminants, move to the correct folder by using "cd":
+If this does not show the path to UnirationalDiscriminants, move to the correct folder by using `cd`:
 
-```
-shell> cd .../UnirationalDiscriminants
+```shell
+cd .../UnirationalDiscriminants
 ```
 
 Hit backspace to exit the shell. Next, use the following commands:
 
-```
+```julia
 using Pkg
 Pkg.activate(".")
 Pkg.instantiate()
 using UnirationalDiscriminants
 ```
 
-Some functionalities of the package are illustrated in the file examples.jl. 
+Some functionalities of the package are illustrated in the file `examples.jl`.
 
 
 ## Data
