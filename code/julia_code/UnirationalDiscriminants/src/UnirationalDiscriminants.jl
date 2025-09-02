@@ -418,9 +418,9 @@ function all_groupnames(table)
     elseif table == "T4_lines"
         data = get_dict_T4_lines()
     elseif table == "T8"
-	data = get_dict_T8()
+        data = get_dict_T8()
     elseif table == "T8_lines"
-	data = get_dict_T8_lines()
+        data = get_dict_T8_lines()
     end
     return collect(keys(data))
 end
