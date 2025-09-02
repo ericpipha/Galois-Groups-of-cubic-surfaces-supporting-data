@@ -33,7 +33,7 @@ Action of the crystallographic group on the 27 lines:
 # DISCRIMINANT #
 ################
 
-The discriminant can be recover from symmetric cubic surface family Z6 by a linear change of coordinates.
+The discriminant can be recovered from symmetric cubic surface family Z6 by a linear change of coordinates.
 
 ################
 # GALOIS GROUP #
