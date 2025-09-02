@@ -6,7 +6,7 @@ Pkg.instantiate()
 using UnirationalDiscriminants
 using Oscar
 
-PATHOUTPUT = "/usr/people/pichonphara/discriminant_symmetric/outputs/overQQ/"
+PATHOUTPUT = "./"
 G = ARGS[1]
 
 D = get_dict_T4(;K =QQ)

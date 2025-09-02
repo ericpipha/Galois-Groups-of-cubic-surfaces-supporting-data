@@ -6,7 +6,7 @@ Pkg.instantiate()
 using UnirationalDiscriminants
 using Oscar
 
-PATHOUTPUT = "/usr/people/pichonphara/discriminant_symmetric/outputs/lines/crystallographic/"
+PATHOUTPUT = "./"
 G = ARGS[1]
 
 D = get_dict_T8_lines(;K = QQ)
