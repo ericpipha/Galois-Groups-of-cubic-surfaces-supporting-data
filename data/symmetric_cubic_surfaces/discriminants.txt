@@ -1,0 +1,95 @@
+Z5
+computing prY1 took 42.513232249 seconds 
+its components have degree FinGenAbGroupElem[[4]]
+prY0 is not a hypersurface 
+it has dimension -1 
+------------------------------------------------------ 
+tS3
+computing prY1 took 0.307785258 seconds 
+its components have degree FinGenAbGroupElem[[3], [1], [1], [1]]
+prY0 is not a hypersurface 
+it has dimension -1 
+------------------------------------------------------ 
+S3
+computing prY1 took 60.274361487 seconds 
+its components have degree FinGenAbGroupElem[[1], [8], [4]]
+prY0 is not a hypersurface 
+it has dimension 4 
+------------------------------------------------------ 
+nK4
+computing prY1 took 1.074980235 seconds 
+its components have degree FinGenAbGroupElem[[2], [4], [4], [4]]
+prY0 is not a hypersurface 
+it has dimension 5 
+------------------------------------------------------ 
+Z4
+computing prY1 took 0.251794738 seconds 
+its components have degree FinGenAbGroupElem[[1], [1], [1], [2]]
+computing prY0 took 0.087679258 seconds 
+it has degree [3] 
+certified: true 
+------------------------------------------------------ 
+A4
+computing prY1 took 0.370379705 seconds 
+its components have degree FinGenAbGroupElem[[1], [3], [1], [1]]
+prY0 is not a hypersurface 
+it has dimension -1 
+------------------------------------------------------ 
+Z6
+computing prY1 took 0.219789172 seconds 
+its components have degree FinGenAbGroupElem[[3], [1], [2], [1]]
+prY0 is not a hypersurface 
+it has dimension 2 
+------------------------------------------------------ 
+K4
+computing prY1 took 0.231016296 seconds 
+its components have degree FinGenAbGroupElem[[1], [1], [1], [1], [1]]
+computing prY0 took 0.080995037 seconds 
+it has degree [3] 
+certified: true 
+------------------------------------------------------ 
+S4
+computing prY1 took 0.337901222 seconds 
+its components have degree FinGenAbGroupElem[[1], [3], [1], [1]]
+prY0 is not a hypersurface 
+it has dimension -1 
+------------------------------------------------------ 
+DT
+computing prY1 took 0.276977574 seconds 
+its components have degree FinGenAbGroupElem[[4], [4]]
+computing prY0 took 152.517595556 seconds 
+it has degree [8] 
+certified: true 
+------------------------------------------------------ 
+D6
+computing prY1 took 0.331877202 seconds 
+its components have degree FinGenAbGroupElem[[1], [1], [3], [1]]
+prY0 is not a hypersurface 
+it has dimension -1 
+------------------------------------------------------ 
+Z2
+computing prY1 took 160.638048921 seconds 
+its components have degree FinGenAbGroupElem[[12]]
+computing prY0 took 925.146660127 seconds 
+it has degree [10] 
+certified: true 
+------------------------------------------------------ 
+D4
+computing prY1 took 0.375240177 seconds 
+its components have degree FinGenAbGroupElem[[1], [1], [3], [1], [1]]
+prY0 is not a hypersurface 
+it has dimension -1 
+------------------------------------------------------ 
+Z3
+computing prY1 took 0.1662105 seconds 
+its components have degree FinGenAbGroupElem[[2], [4]]
+computing prY0 took 6.313701544 seconds 
+it has degree [8] 
+certified: true 
+------------------------------------------------------ 
+D5
+computing prY1 took 0.061814644 seconds 
+its components have degree FinGenAbGroupElem[[2]]
+prY0 is not a hypersurface 
+it has dimension -1 
+------------------------------------------------------ 
