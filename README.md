@@ -26,17 +26,20 @@ This part of the code is implemented in `julia` and relies on OSCAR (https://www
 To use the package, make sure you are in the folder UnirationalDiscriminants.
 You can check this by accessing the shell in a julia terminal by clicking ";" and then using "pwd":
 
-```shell> pwd
+```
+shell> pwd
 ```
 
 If this does not show the path to UnirationalDiscriminants, move to the correct folder by using "cd":
 
-```shell> cd .../UnirationalDiscriminants
+```
+shell> cd .../UnirationalDiscriminants
 ```
 
 Hit backspace to exit the shell. Next, use the following commands:
 
-```using Pkg
+```
+using Pkg
 Pkg.activate(".")
 Pkg.instantiate()
 using UnirationalDiscriminants
