@@ -393,6 +393,10 @@ function get_basis(groupname,table; K=QQ)
         data = get_dict_T4(; K=K)
     elseif table == "T4_lines"
         data = get_dict_T4_lines(; K=K)
+    elseif table == "T8"
+	data = get_dict_T8(; K=K)
+    elseif table == "T8_lines"
+	data = get_dict_T8_lines(; K=K)
     end
     return get(data, groupname, [])
 end
@@ -413,6 +417,10 @@ function all_groupnames(table)
         data = get_dict_T4()
     elseif table == "T4_lines"
         data = get_dict_T4_lines()
+    elseif table == "T8"
+	data = get_dict_T8(; K=K)
+    elseif table == "T8_lines"
+	data = get_dict_T8_lines(; K=K)
     end
     return collect(keys(data))
 end
