@@ -12,14 +12,18 @@ Code that can be used to reproduce the results of the paper is included in the `
 This part of the code is implemented in `SageMath` and relies on the [`lefschetz-family` package](https://github.com/ericpipha/lefschetz-family), in which general methods not specific to cubic and quartic surfaces have been implemented.in the `Fibration` class.
 
 The file `cubic_example.sage` contains an example of a symmetric cubic computation, followed by code for computing the monodromy of all $G$-invariant cubic surfaces for $G$ a subgroup of $S_4$.
+```
+cubic_example.sage
+```
 
-There is an example of a crystallographic quartic computation, where we have also included the period matrix of the base fibre to shorten the computation.
-To recompute the period matrix (which takes around one hour), delete the file `fibre_32.9.sobj`.
-The same piece of code can be used to compute the monodromy of all crystallographic families of quartic surfaces, by running, e.g., 
+To compute the monodromy groups of crystallographic groups, run
 ```shell
 sage quartic_example.sage "32.9"
 ```
 from inside the `sage_code` repository (passing no argument runs `32.9` by default).
+For the family `32.9`, we have precomputed the periods of the base fibre to shorten the computation time. 
+The computation should therefore go through in a few minutes.
+To recompute the period matrix, one may remove the file `fibre_32.9.sobj`.
 
 All cases except `2.1`, `3.1`, `8.1`, `10.1`, `26.1` and `27.1` only involve integration of operators of order 9 or lower, and should go through in a few hours.
 The remaining cases require lengthier computations.
