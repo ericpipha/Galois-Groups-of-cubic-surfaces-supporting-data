@@ -1,3 +1,5 @@
+# this code lists dimension 4 crystallographic groups and saves them in `crystallographic_groups.sobj`
+
 libgap.LoadPackage("CrystCat")
 groups = {}
 nrsystems = int(str(gap("NrCrystalSystems( 4 )")))

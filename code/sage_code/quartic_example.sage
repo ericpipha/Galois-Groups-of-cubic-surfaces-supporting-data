@@ -1,4 +1,4 @@
-KEYTORUN = sys.args[1] if len(sys.args)>1 else "32.9"
+KEYTORUN = sys.argv[1] if len(sys.argv)>1 else "32.9"
 
 os.environ["SAGE_NUM_THREADS"] = '10'
 from lefschetz_family.fibration import Fibration
@@ -68,6 +68,7 @@ print("Computing monodromy of crystallogrpahic group %s"%(key))
 symmetrygroup = crystallographic_groups[key]
 span = invariant_pols[key]
 
+
 vals = 50, -89, 12, -95, 77, 45, 96, 99, 81, 79, 99, 44, 22, -20, -62, -75, 55, -65, -95, 14, -63, -76, -21, -9, 95, 48, 64, -56, -24, -40, 15, -31, 7, -62, -76
 vals2 = 5,3,7,-9,13,-2,4, -6, -1, -9, -11, -3, -14, -13, 4, -14, 10, 2, -1, -10, -10, -9, -13, -14, -7, -8, 10, 7, -1, -9, -12, -12, -11
 
@@ -89,15 +90,19 @@ if couldnotopen or fibre.P != Pt(basepoint):
     fibre = Hypersurface(Pt(basepoint), fibration=fibration, nbits=1000)
 _ =  fibre.period_matrix
 
-group_action = [matrix_action_on_cohomology(matrix(g), fibre) for g in symmetrygroup]
-Picsublattice = matrix(ZZ, fibre.hyperplane_class).image()
-for a in group_action:
-    if ZZ((fibre.period_matrix * a*fibre.period_matrix.inverse())[0,0]) == 1:
-        Picsublattice += ( (a-1).right_kernel_matrix() * fibre.intersection_product ).right_kernel() 
-    else:
-        Picsublattice += (a-1).right_kernel()
-Picsublattice = Picsublattice.saturation()
-generic_Picard_lattice = Picsublattice.basis_matrix()
+try:
+    group_action = [matrix_action_on_cohomology(matrix(g), fibre) for g in symmetrygroup]
+    Picsublattice = matrix(ZZ, fibre.hyperplane_class).image()
+    for a in group_action:
+        if ZZ((fibre.period_matrix * a*fibre.period_matrix.inverse())[0,0]) == 1:
+            Picsublattice += ( (a-1).right_kernel_matrix() * fibre.intersection_product ).right_kernel() 
+        else:
+            Picsublattice += (a-1).right_kernel()
+    Picsublattice = Picsublattice.saturation()
+    generic_Picard_lattice = Picsublattice.basis_matrix()
+except:
+    print("Could not compute the generic Picard lattice using group action, falling back to LLL")
+    generic_Picard_lattice = IntegerRelations(fibre.holomorphic_period_matrix.transpose()).basis
 
 conics = find_curves(fibre, 2, NS=generic_Picard_lattice)[2]
 
@@ -111,8 +116,7 @@ critical_values = flatten(critical_values)
 # We generate a list of candidate cyclic forms -- we are looking for forms with small Picard-Fuchs equations that generate the cohomology
 
 group_action = [matrix_action_on_cohomology(matrix(g), fibre) for g in symmetrygroup.gens()]
-NS = IntegerRelations(fibre.holomorphic_period_matrix.transpose()).basis
-TrX = (NS * fibre.intersection_product).right_kernel_matrix()
+TrX = (generic_Picard_lattice * fibre.intersection_product).right_kernel_matrix()
 
 candidates = [identity_matrix(22).row(0)]
 for c in conics:
