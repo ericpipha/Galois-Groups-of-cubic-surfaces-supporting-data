@@ -1,6 +1,6 @@
 # Galois Groups of Cubic Surfaces — supporting-data
 
-This repository contains the supporting data and code for the paper *Galois groups of cubic surfaces* ([arXiv:TODO]()).
+This repository contains the supporting data and code for the paper *Galois groups of cubic surfaces* by Eric Pichon-Pharabod and Simon Telen ([arXiv:TODO]()).
 
 
 ## Code
