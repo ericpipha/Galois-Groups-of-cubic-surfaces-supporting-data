@@ -20,15 +20,16 @@ The same piece of code can be used to compute the monodromy of all crystallograp
 sage quartic_example.sage "32.9"
 ```
 from inside the `sage_code` repository (passing no argument runs `32.9` by default).
+
 All cases except `2.1`, `3.1`, `8.1`, `10.1`, `26.1` and `27.1` only involve integration of operators of order 9 or lower, and should go through in a few hours.
-The remaining cases require lengthier computation.
+The remaining cases require lengthier computations.
 
 ### Discriminant computations
 
-This part of the code is implemented in `julia` and relies on [OSCAR](https://www.oscar-system.org). The package UnirationalDiscriminants.jl implements methods for computing the discriminant of a linear system of projective hypersurfaces. 
+This part of the code is implemented in `julia` and relies on [OSCAR](https://www.oscar-system.org). The package `UnirationalDiscriminants.jl` implements methods for computing the discriminant of a linear system of projective hypersurfaces. 
 
-To use the package, make sure you are in the folder UnirationalDiscriminants.
-You can check this by accessing the shell in a julia terminal by clicking ";" and then using `pwd`:
+To use the package, make sure you are in the folder `UnirationalDiscriminants`.
+You can check this by accessing the shell in a julia terminal by pressing `;` and then using `pwd`:
 
 ```shell
 pwd
