@@ -17,7 +17,7 @@ There is an example of a crystallographic quartic computation, where we have als
 To recompute the period matrix (which takes around one hour), delete the file `fibre_32.9.sobj`.
 The same piece of code can be used to compute the monodromy of all crystallographic families of quartic surfaces, by running, e.g., 
 ```
-sage quartic_example.sage "19.2"
+sage quartic_example.sage "32.9"
 ```
 from inside the `sage_code` repository (passing no argument runs `32.9` by default).
 All cases except `2.1`, `3.1`, `8.1`, `10.1`, `26.1` and `27.1` only involve integration of operators of order 9 or lower, and should go through in a few hours.
