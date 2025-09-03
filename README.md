@@ -1,4 +1,4 @@
-# Galois Groups of Cubic Surfaces -- supporting-data
+# Galois Groups of Cubic Surfaces — supporting-data
 
 This repository contains the supporting data and code for the paper *Galois groups of cubic surfaces* ([arXiv:TODO]()).
 
