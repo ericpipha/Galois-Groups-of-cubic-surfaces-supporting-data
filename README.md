@@ -16,7 +16,7 @@ The file `cubic_example.sage` contains an example of a symmetric cubic computati
 There is an example of a crystallographic quartic computation, where we have also included the period matrix of the base fibre to shorten the computation.
 To recompute the period matrix (which takes around one hour), delete the file `fibre_32.9.sobj`.
 The same piece of code can be used to compute the monodromy of all crystallographic families of quartic surfaces, by running, e.g., 
-```
+```shell
 sage quartic_example.sage "32.9"
 ```
 from inside the `sage_code` repository (passing no argument runs `32.9` by default).
