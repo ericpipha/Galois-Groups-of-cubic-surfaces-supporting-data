@@ -38,7 +38,7 @@ You can check this by accessing the shell in a julia terminal by pressing `;`. T
 pwd
 ```
 
-If this does not show the path to UnirationalDiscriminants, move to the correct folder by using `cd`:
+If this does not show the path to `UnirationalDiscriminants`, move to the correct folder by using `cd`:
 ```shell
 cd path/to/folder/UnirationalDiscriminants
 ```
