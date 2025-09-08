@@ -3,7 +3,6 @@
 # DATA FOR SYMMETRIC CUBIC SURFACE FAMILY D5 #
 ##############################################
 
-
 ##################
 # GROUP & FAMILY #
 ##################
@@ -20,7 +19,6 @@ x^2*y + x*y^2 + x^2*z + 2*x*y*z + x*z^2 + 2*x*y*w + y^2*w + y*w^2
 # GROUP ACTION #
 ################
 
-
 Action of the crystallographic group on the 27 lines:
 [1, 5, 4, 6, 3, 2, 7, 11, 10, 12, 9, 8, 16, 25, 13, 14, 23, 24, 26, 22, 20, 19, 27, 17, 15, 21, 18]
 [1, 5, 6, 4, 2, 3, 7, 11, 12, 10, 8, 9, 16, 15, 14, 13, 24, 23, 21, 22, 19, 20, 18, 17, 25, 26, 27]
@@ -32,9 +30,12 @@ Action of the crystallographic group on the 27 lines:
 The discriminant has 1 component of degree 2:
 Z[0]^2 - 3*Z[0]*Z[1] + Z[1]^2
 
+The generic line is given by:
+x^2*y + x*y^2 + x^2*z + 2*x*y*z + y^2*z + x*z^2 + y*z^2 + x^2*w + 2*x*y*w + y^2*w + 2*x*z*w + 2*y*z*w + z^2*w + x*w^2 + y*w^2 + z*w^2,
+-2*x^2*y - 2*x*y^2 - 2*x^2*z - 4*x*y*z - 41*y^2*z - 2*x*z^2 - 41*y*z^2 - 41*x^2*w - 4*x*y*w - 2*y^2*w - 82*x*z*w - 82*y*z*w - 41*z^2*w - 41*x*w^2 - 2*y*w^2 - 41*z*w^2
+
 ################
 # GALOIS GROUP #
 ################
-
 
 Galois group is trivial.

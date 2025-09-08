@@ -63,6 +63,7 @@ This folder contains computational results for the families of symmetric cubic s
 - the basis we chose for the linear system of invariants,
 - the permutation of the 27 lines induced by each of the generators of the group, 
 - the irreducible components of the discriminant hypersurface,
+- the generic line for which we did the computation,
 - generators of the Galois group as a subgroup of $S_{27}$. 
 In addition, the file `discriminants.txt` contains the output of the discriminant computation. The file `multidegs.txt` contains the multigradings and multidegrees used for the computation of the component ${\rm pr}_2(Y_0)$ of the discriminant, in cases where this is a hypersurface. 
 

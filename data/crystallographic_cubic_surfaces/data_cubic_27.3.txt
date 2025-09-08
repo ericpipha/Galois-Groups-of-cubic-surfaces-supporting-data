@@ -3,7 +3,6 @@
 # DATA FOR CRYSTALLOGRAPHIC CUBIC SURFACE FAMILY 27.3 #
 #######################################################
 
-
 ##################
 # GROUP & FAMILY #
 ##################
@@ -23,7 +22,6 @@ Equivalent crystallographic groups:
 # GROUP ACTION #
 ################
 
-
 Action of the crystallographic group on the 27 lines:
 [1, 27, 7, 21, 20, 17, 3, 16, 9, 15, 25, 13, 12, 14, 10, 8, 6, 18, 22, 5, 4, 19, 23, 24, 11, 26, 2]
 [5, 27, 16, 14, 2, 4, 18, 7, 9, 12, 22, 26, 15, 21, 10, 8, 6, 3, 25, 1, 17, 19, 23, 11, 24, 13, 20]
@@ -37,6 +35,5 @@ The discriminant can be recovered from symmetric cubic surface family D5 by a li
 ################
 # GALOIS GROUP #
 ################
-
 
 Galois group is trivial.

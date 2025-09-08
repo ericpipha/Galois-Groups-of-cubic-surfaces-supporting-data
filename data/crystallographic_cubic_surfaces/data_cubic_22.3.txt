@@ -3,7 +3,6 @@
 # DATA FOR CRYSTALLOGRAPHIC CUBIC SURFACE FAMILY 22.3 #
 #######################################################
 
-
 ##################
 # GROUP & FAMILY #
 ##################
@@ -24,7 +23,6 @@ Equivalent crystallographic groups:
 # GROUP ACTION #
 ################
 
-
 Action of the crystallographic group on the 27 lines:
 [9, 22, 8, 23, 24, 7, 13, 6, 14, 5, 4, 17, 27, 1, 20, 2, 19, 10, 16, 26, 18, 12, 15, 25, 21, 11, 3]
 [12, 17, 6, 26, 18, 13, 8, 27, 2, 24, 23, 16, 3, 19, 4, 1, 9, 25, 22, 11, 10, 14, 20, 21, 5, 15, 7]
@@ -40,7 +38,6 @@ Z[2]
 ################
 # GALOIS GROUP #
 ################
-
 
 Generators of the monodromy group on the second homology group:
 [9, 19, 10, 7, 26, 24, 25, 5, 14, 20, 6, 2, 21, 1, 27, 17, 22, 15, 12, 3, 23, 16, 13, 11, 4, 8, 18]

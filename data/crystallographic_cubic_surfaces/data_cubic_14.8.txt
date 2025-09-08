@@ -3,7 +3,6 @@
 # DATA FOR CRYSTALLOGRAPHIC CUBIC SURFACE FAMILY 14.8 #
 #######################################################
 
-
 ##################
 # GROUP & FAMILY #
 ##################
@@ -26,7 +25,6 @@ Equivalent crystallographic groups:
 # GROUP ACTION #
 ################
 
-
 Action of the crystallographic group on the 27 lines:
 [11, 13, 14, 25, 5, 16, 7, 26, 21, 22, 1, 24, 2, 3, 15, 6, 23, 27, 20, 19, 9, 10, 17, 12, 4, 8, 18]
 [8, 15, 14, 12, 21, 10, 23, 3, 5, 18, 1, 19, 17, 26, 13, 6, 7, 27, 20, 24, 9, 16, 2, 25, 4, 11, 22]
@@ -40,7 +38,6 @@ The discriminant can be recovered from symmetric cubic surface family D6 by a li
 ################
 # GALOIS GROUP #
 ################
-
 
 Generators of the monodromy group on the second homology group:
 [14, 17, 11, 20, 5, 27, 15, 26, 9, 22, 3, 24, 23, 1, 7, 18, 2, 16, 25, 4, 21, 10, 13, 12, 19, 8, 6]

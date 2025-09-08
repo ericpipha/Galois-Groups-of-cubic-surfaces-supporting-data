@@ -3,7 +3,6 @@
 # DATA FOR CRYSTALLOGRAPHIC CUBIC SURFACE FAMILY 22.5 #
 #######################################################
 
-
 ##################
 # GROUP & FAMILY #
 ##################
@@ -25,7 +24,6 @@ Equivalent crystallographic groups:
 # GROUP ACTION #
 ################
 
-
 Action of the crystallographic group on the 27 lines:
 [5, 2, 3, 6, 1, 4, 11, 8, 9, 12, 7, 10, 26, 21, 15, 22, 17, 19, 18, 27, 14, 16, 23, 25, 24, 13, 20]
 [5, 2, 1, 4, 3, 6, 11, 8, 7, 10, 9, 12, 26, 15, 21, 24, 13, 18, 19, 25, 14, 20, 23, 27, 22, 17, 16]
@@ -42,7 +40,6 @@ The discriminant has 2 components of degree 1:
 ################
 # GALOIS GROUP #
 ################
-
 
 Generators of the monodromy group on the second homology group:
 [21, 8, 15, 10, 14, 12, 1, 23, 3, 19, 5, 18, 13, 11, 9, 16, 17, 6, 4, 20, 7, 22, 2, 24, 25, 26, 27]

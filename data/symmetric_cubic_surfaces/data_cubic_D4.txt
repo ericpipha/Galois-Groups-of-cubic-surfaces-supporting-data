@@ -3,7 +3,6 @@
 # DATA FOR SYMMETRIC CUBIC SURFACE FAMILY D4 #
 ##############################################
 
-
 ##################
 # GROUP & FAMILY #
 ##################
@@ -22,7 +21,6 @@ x*y*z + x*y*w + x*z*w + y*z*w
 # GROUP ACTION #
 ################
 
-
 Action of the crystallographic group on the 27 lines:
 [7, 9, 11, 10, 12, 8, 1, 3, 5, 4, 6, 2, 14, 16, 13, 15, 21, 20, 17, 23, 24, 18, 22, 19, 25, 27, 26]
 [10, 12, 11, 7, 9, 8, 4, 6, 5, 1, 3, 2, 22, 23, 18, 20, 24, 15, 19, 16, 21, 13, 14, 17, 25, 27, 26]
@@ -38,10 +36,13 @@ The discriminant has 4 components of degree 1, and 1 component of degree 3:
 Z[0] + Z[1] + 2*Z[2] + Z[3]
 3*Z[0] - Z[1] + 2*Z[2] - Z[3]
 
+The generic line is given by:
+x^2*y + x*y^2 + x^2*z + 2*x*y*z + y^2*z + x*z^2 + y*z^2 + x^2*w + 2*x*y*w + y^2*w + 2*x*z*w + 2*y*z*w + z^2*w + x*w^2 + y*w^2 + z*w^2,
+-41*x^3 - 2*x^2*y - 2*x*y^2 - 41*y^3 - 95*x^2*z + 11*x*y*z - 95*y^2*z - 95*x*z^2 - 95*y*z^2 - 41*z^3 - 95*x^2*w + 11*x*y*w - 95*y^2*w + 11*x*z*w + 11*y*z*w - 2*z^2*w - 95*x*w^2 - 95*y*w^2 - 2*z*w^2 - 41*w^3
+
 ################
 # GALOIS GROUP #
 ################
-
 
 Generators of the monodromy group on the second homology group:
 [1, 5, 6, 4, 2, 3, 7, 11, 12, 10, 8, 9, 16, 15, 14, 13, 24, 23, 21, 22, 19, 20, 18, 17, 25, 26, 27]
