@@ -80,11 +80,11 @@ In addition, the file `discriminants.txt` contains the output of the discriminan
 
 ### Symmetric quartic surfaces
 
-Instead of including the symmetric quartic surfaces, we refer to [Table 7 of the paper]() *TODO add link to page 29* to match to the corresponding crystallographic group. 
+Instead of including the symmetric quartic surfaces, we refer to [Table 7 of the paper](https://arxiv.org/pdf/2509.06785#page=29) to match to the corresponding crystallographic group. 
 
 ### Crystallographic quartic surfaces
 
-This folder contains computational results for the families of crystallographic quartic surfaces appearing in [Table 8 of the paper](https://arxiv.org/pdf/2509.06785#page=29). There is one txt file for each group in that table, and such a file contains
+This folder contains computational results for the families of crystallographic quartic surfaces appearing in [Table 8 of the paper](https://arxiv.org/pdf/2509.06785#page=30). There is one txt file for each group in that table, and such a file contains
 - a list of generators of the group as a subgroup of $\mathrm{GL}_4(\mathbb{Z})$,
 - the basis we chose for the linear system of invariants,
 - a list of equivalent crystallographic groups,
