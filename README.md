@@ -1,6 +1,6 @@
 # Galois Groups of Cubic Surfaces — supporting-data
 
-This repository contains the supporting data and code for the paper *Galois groups of cubic surfaces* by Eric Pichon-Pharabod and Simon Telen ([arXiv:TODO]()).
+This repository contains the supporting data and code for the paper *Galois groups of cubic surfaces* by Eric Pichon-Pharabod and Simon Telen ([arXiv:2509.06785](https://arxiv.org/pdf/2509.06785)).
 
 
 ## Code
@@ -58,7 +58,7 @@ Some functionalities of the package are illustrated in the file `examples.jl`.
 
 ### Symmetric cubic surfaces
 
-This folder contains computational results for the families of symmetric cubic surfaces appearing in [Table 1 of the paper]() *TODO add link to page 3*. There is one txt file for each group in that table, and such a file contains
+This folder contains computational results for the families of symmetric cubic surfaces appearing in [Table 1 of the paper](https://arxiv.org/pdf/2509.06785#page=3). There is one txt file for each group in that table, and such a file contains
 - a list of generators of the group as a subgroup of $\mathrm{GL}_4(\mathbb{Z})$,
 - the basis we chose for the linear system of invariants,
 - the permutation of the 27 lines induced by each of the generators of the group, 
@@ -69,7 +69,7 @@ In addition, the file `discriminants.txt` contains the output of the discriminan
 
 ### Crystallographic cubic surfaces
 
-This folder contains computational results for the families of crystallographic cubic surfaces appearing in [Table 3 of the paper]() *TODO add link to page 29*. There is one txt file for each group in that table, and such a file contains
+This folder contains computational results for the families of crystallographic cubic surfaces appearing in [Table 3 of the paper](https://arxiv.org/pdf/2509.06785#page=20). There is one txt file for each group in that table, and such a file contains
 - a list of generators of the group as a subgroup of $\mathrm{GL}_4(\mathbb{Z})$,
 - the basis we chose for the linear system of invariants,
 - a list of equivalent crystallographic groups,
@@ -84,7 +84,7 @@ Instead of including the symmetric quartic surfaces, we refer to [Table 7 of the
 
 ### Crystallographic quartic surfaces
 
-This folder contains computational results for the families of crystallographic quartic surfaces appearing in [Table 8 of the paper]() *TODO add link to page 29*. There is one txt file for each group in that table, and such a file contains
+This folder contains computational results for the families of crystallographic quartic surfaces appearing in [Table 8 of the paper](https://arxiv.org/pdf/2509.06785#page=29). There is one txt file for each group in that table, and such a file contains
 - a list of generators of the group as a subgroup of $\mathrm{GL}_4(\mathbb{Z})$,
 - the basis we chose for the linear system of invariants,
 - a list of equivalent crystallographic groups,
