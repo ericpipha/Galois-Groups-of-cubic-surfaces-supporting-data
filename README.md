@@ -9,7 +9,7 @@ Code that can be used to reproduce the results of the paper is included in the `
 
 ### Monodromy computations
 
-This part of the code is implemented in `SageMath` and relies on the [`lefschetz-family` package](https://github.com/ericpipha/lefschetz-family), in which general methods not specific to cubic and quartic surfaces have been implemented.in the `Fibration` class.
+This part of the code is implemented in `SageMath` and relies on the [`lefschetz-family` package](https://github.com/ericpipha/lefschetz-family), in which general methods not specific to cubic and quartic surfaces have been implemented.in the class `Fibration`.
 
 The file `cubic_example.sage` contains an example of a symmetric cubic computation, followed by code for computing the monodromy of all $G$-invariant cubic surfaces for $G$ a subgroup of $S_4$.
 ```
